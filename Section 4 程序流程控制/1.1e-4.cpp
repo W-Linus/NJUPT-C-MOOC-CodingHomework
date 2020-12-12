@@ -23,7 +23,7 @@ int main()
 			printf("%.2f\n", s);
 			return 0;
 		}
-		i += 1;
+		i +=1;
 		jc = 1;
 	}
 }
