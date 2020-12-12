@@ -16,7 +16,7 @@ int main() {
 
 		if (a == 8) {
 			printf("\n");
-			a = 0;
+			a =0;
 		}
 		flag = 0;
 	}
