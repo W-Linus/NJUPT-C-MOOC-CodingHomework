@@ -4,7 +4,7 @@ int year, month, day,total;
 int daypermonth[11] = { 31,31,30,31,30,31,31,30,31,30,31 };
 
 int main() {
-	scanf_s("%d-%d-%d", &year, &month, &day);
+	scanf("%d-%d-%d", &year, &month, &day);
 	    if (year % 400 == 0 || year % 4 == 0) {
 			if (month <= 2) {
 				for (int i = 0; i < month - 1; i++) {
