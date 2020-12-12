@@ -5,7 +5,7 @@ double div=0;
 
 int main() {
 	for (int i = 0; i < 10; i++) {
-		scanf_s("%d", &a[i]);
+		scanf("%d", &a[i]);
 	}
 	for (int j = 0; j < 9; j++) {
 		if (a[j] > a[j + 1]) {
