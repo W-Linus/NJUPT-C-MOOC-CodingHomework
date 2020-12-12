@@ -44,7 +44,7 @@ void judgeprime(int b, int c) {
 			break;
 		}
 		else {
-			flagc = 1;
+			flagc= 1;
 		}
 	}
 
