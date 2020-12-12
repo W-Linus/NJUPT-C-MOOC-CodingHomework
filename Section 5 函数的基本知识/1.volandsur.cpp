@@ -23,6 +23,6 @@ double sur(double r, double h) {
 }
 
 double vol(double r, double h) {
-	voltotal = ((r * r * 3.14) * h) / 3;
+	voltotal = ((r * r *3.14) * h) / 3;
 	return voltotal;
 }
