@@ -4,7 +4,7 @@ int fun(int a, int b);
 int a, b, r[1000],total;
 
 int main() {
-	scanf_s("%d%d", &a, &b);
+	scanf("%d%d", &a, &b);
 	total = fun(a, b);
 	for (int i = 0; i < total; i++) {
 		if (r[i + 1] !=  0) {
