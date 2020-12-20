@@ -4,9 +4,9 @@ void sort(int* a, int n);
 int a[10] = {}, n;
 
 int main() {
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 	for (int i = 0; i < n; i++) {
-		scanf_s("%d", &a[i]);
+		scanf("%d", &a[i]);
 	}
 	sort(a, n);
 	for (int i = 0; i < n; i++) {
