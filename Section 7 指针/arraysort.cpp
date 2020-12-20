@@ -4,7 +4,7 @@ int a[10] = { 1,2,3,4,5,6,7,8,9,10 };
 int m,temp;
 
 int main() {
-	scanf_s("%d", &m);
+	scanf("%d", &m);
 	int ctrl = m;
 	for (int i = 0; i < 10; i++) {
 		if(ctrl-1>=0){
